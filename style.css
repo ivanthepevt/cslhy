@@ -116,11 +116,12 @@
 .card {
   display: inline-block;
   border: none;
+  vertical-align: text-top;
 }
 
 .displaynumber{
-  margin-top: 0.5rem;
-  margin-bottom: 0rem;
+  margin-top: 1rem;
+  margin-bottom: -0.7rem;
   color: #BD4945;
 }
 
@@ -145,6 +146,11 @@
 .aquote{
   margin-left: 10%;
   margin-right: 10%;
+}
+
+a {
+  color: rgba(35,35,35,.9);
+  text-decoration: underline;
 }
 
 
