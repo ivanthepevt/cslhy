@@ -1,5 +1,17 @@
-.video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 #donate_btn {
   color: white;
@@ -7,6 +19,7 @@
   background-color: #375183;
   border-color: white;
 }
+
 #donate_btn:hover {
   color: #375183;
   background-color: white;
@@ -19,6 +32,7 @@
   background-color: white;
   border-color: white;
 }
+
 #apply_btn:hover {
   color: white;
   background-color: #BD4945;
@@ -33,7 +47,7 @@
   height: 3rem;
   background: white;
   position: relative;
-  z-index:8;
+  z-index: 8;
 }
 
 #bluebar {
@@ -43,7 +57,7 @@
 }
 
 #redtrapezoid {
-	width: 30vw;
+  width: 30vw;
   height: 3rem;
   transform: skew(20deg);
   background-color: #BD4945;
@@ -106,20 +120,21 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
- .lead {
+
+.lead {
   font-size: 1rem;
   text-align: justify;
   text-justify: inter-word;
- }
+}
 
- 
+
 .card {
   display: inline-block;
   border: none;
   vertical-align: text-top;
 }
 
-.displaynumber{
+.displaynumber {
   margin-top: 1rem;
   margin-bottom: -0.7rem;
   color: #BD4945;
@@ -134,25 +149,38 @@
   font-size: 1em;
 }
 
-.carousel-control-prev{
-  background-color: #adb5bd;
-  width: 10%;
-}
-.carousel-control-next{
+.carousel-control-prev {
   background-color: #adb5bd;
   width: 10%;
 }
 
-.aquote{
+.carousel-control-next {
+  background-color: #adb5bd;
+  width: 10%;
+}
+
+.aquote {
   margin-left: 10%;
   margin-right: 10%;
 }
 
 a {
-  color: rgba(35,35,35,.9);
+  color: rgba(35, 35, 35, .9);
   text-decoration: underline;
 }
 
 
-.video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
